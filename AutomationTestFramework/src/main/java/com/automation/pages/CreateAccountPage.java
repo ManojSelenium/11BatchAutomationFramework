@@ -9,7 +9,6 @@ import com.automation.util.WebDriverUtils;
 public class CreateAccountPage extends WebDriverUtils implements CreateAccountPageProperties{
 
 	WebDriver driver;
-	
 	public CreateAccountPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
